@@ -28,7 +28,7 @@ At the end of the this hands-on training, students will be able to;
 - connect to ec2 free tier instances 
   
 ```bash
-ssh -i .ssh/mykey.pem ec2-user@ec2-3-133-106-98.us-east-2.compute.amazonaws.com
+ssh -i .ssh/my-own.pem ec2-user@ec2-3-133-106-98.us-east-2.compute.amazonaws.com
 ```
 
 ## Part 2 - Install Java JDK

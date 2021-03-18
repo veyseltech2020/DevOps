@@ -22,9 +22,9 @@ At the end of the this hands-on training, students will be able to;
 
 ## Part 1 - Installing Jenkins Server on Amazon Linux 2 with `yum` Repo
 
-- Launch an AWS EC2 instance of Amazon Linux 2 AMI with security group allowing SSH and Tomcat (8080) ports and name it as `call-jenkins`.
+- Launch an AWS EC2 instance of Amazon Linux 2 AMI with security group allowing SSH and Tomcat (8080) ports and name it as `veysel-jenkins`.
 
-- Connect to the `call-jenkins` instance with SSH.
+- Connect to the `veysel-jenkins` instance with SSH.
 
 ```bash
 ssh -i .ssh/call-training.pem ec2-user@ec2-3-133-106-98.us-east-2.compute.amazonaws.com
@@ -94,18 +94,18 @@ sudo cat /var/lib/jenkins/secrets/initialAdminPassword
 
 - Install suggested plugins.
 
-- Create first admin user (call-jenkins:Call-jenkins1234).
+- Create first admin user (veysel-jenkins:veysel-jenkins1234).
 
 - Check the URL, then save and finish the installation.
 
 ## Part 2 - Installing Jenkins Server on Amazon Linux 2 with Docker
 
-- Launch an AWS EC2 instance of Amazon Linux 2 AMI with security group allowing SSH and Tomcat (8080) ports and name it as `call-jenkins`.
+- Launch an AWS EC2 instance of Amazon Linux 2 AMI with security group allowing SSH and Tomcat (8080) ports and name it as `veysel-jenkins`.
 
-- Connect to the `call-jenkins` instance with SSH.
+- Connect to the `veysel-jenkins` instance with SSH.
 
 ```bash
-ssh -i .ssh/call-training.pem ec2-user@ec2-3-133-106-98.us-east-2.compute.amazonaws.com
+ssh -i .ssh/my-own.pem ec2-user@ec2-3-133-106-98.us-east-2.compute.amazonaws.com
 ```
 
 - Update the installed packages and package cache on your instance.
@@ -195,12 +195,12 @@ docker logs jenkins
 
 ## Part 3 - Installing Jenkins Server on Amazon Linux 2 with `war` File
 
-- Launch an AWS EC2 instance of Amazon Linux 2 AMI with security group allowing SSH and Tomcat (8080) ports and name it as `call-jenkins`.
+- Launch an AWS EC2 instance of Amazon Linux 2 AMI with security group allowing SSH and Tomcat (8080) ports and name it as `veysel-jenkins`.
 
-- Connect to the `call-jenkins` instance with SSH.
+- Connect to the `veysel-jenkins` instance with SSH.
 
 ```bash
-ssh -i .ssh/call-training.pem ec2-user@ec2-3-133-106-98.us-east-2.compute.amazonaws.com
+ssh -i .ssh/my-own.pem ec2-user@ec2-3-133-106-98.us-east-2.compute.amazonaws.com
 ```
 
 - Update the installed packages and package cache on your instance.
@@ -239,12 +239,12 @@ java -jar jenkins.war --httpPort=8080
 cat ~/.jenkins/secrets/initialAdminPassword
 ```
 
-- Open Jenkins initial setup page from web browser using the Public DNS name of the `call-jenkins` instance using port 8080.
+- Open Jenkins initial setup page from web browser using the Public DNS name of the `veysel-jenkins` instance using port 8080.
 
 - Enter the temporary password to unlock the Jenkins.
 
 - Install suggested plugins.
 
-- Create first admin user (call-jenkins:Call-jenkins1234).
+- Create first admin user (veysel-jenkins:veysel-jenkins1234).
 
 - Check the URL, then save and finish the installation.

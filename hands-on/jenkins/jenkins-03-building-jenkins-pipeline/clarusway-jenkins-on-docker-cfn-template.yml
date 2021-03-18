@@ -6,7 +6,7 @@ Description: >
   The AMI of Clarusway Jenkins Server is published on North Virginia Region for educational purposes.
   Jenkins Server will run on Amazon Linux 2 EC2 Instance with custom security group 
   allowing SSH (22) and HTTP (80, 8080) connections from anywhere.
-  Jenkins Server is configured with admin user `call-jenkins` and password `Call-jenkins1234`.
+  Jenkins Server is configured with admin user `veysel-jenkins` and password `veysel-jenkins1234`.
 
 Parameters:
   KeyPairName:

@@ -41,7 +41,7 @@ Resources:
       Tags:                
         -                        
           Key: Name
-          Value: !Sub joe-blue-native-${AWS::StackName}   
+          Value: !Sub veysel-ors-native-${AWS::StackName}   
       UserData:
         Fn::Base64: |
           #! /bin/bash

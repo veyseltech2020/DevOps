@@ -70,7 +70,7 @@ At the end of the this hands-on training, students will be able to;
 
   - Install suggested plugins.
 
-  - Create first admin user (`call-jenkins:Call-jenkins1234`).
+  - Create first admin user (`veysel-jenkins:veysel-jenkins1234`).
 
   - Check the URL, then save and finish the installation.
 
@@ -175,7 +175,7 @@ sudo yum install git -y
 
 - For `Build`, select `Invoke top-level Maven targets`
 
-  - For `Maven Versin`, select the pre-defined maven, `maven-3.6.3` 
+  - For `Maven Version`, select the pre-defined maven, `maven-3.6.3` 
   - For `Goals`, write `clean package`
   - POM: `pom.xml`
 

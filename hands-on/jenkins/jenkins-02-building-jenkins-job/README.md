@@ -27,7 +27,7 @@ At the end of the this hands-on training, students will be able to;
 - Connect to your instance with SSH.
 
 ```bash
-ssh -i .ssh/call-training.pem ec2-user@ec2-3-133-106-98.us-east-2.compute.amazonaws.com
+ssh -i .ssh/my-own.pem ec2-user@ec2-3-133-106-98.us-east-2.compute.amazonaws.com
 ```
 
 - Get the administrator password from `/var/jenkins_home/secrets/initialAdminPassword` file.
@@ -48,7 +48,7 @@ docker logs jenkins
 
 - Install suggested plugins.
 
-- Create first admin user (call-jenkins:Call-jenkins1234).
+- Create first admin user (veysel-jenkins:veysel-jenkins1234).
 
 - Check the URL, then save and finish the installation.
 
@@ -93,7 +93,7 @@ docker logs jenkins
 
   - Go to `Build` section and choose appropriate build step from `Add build step` dropdown menu.
 
-  - Write down just ``echo "Hello World, This is my first job"` to execute shell command, in textarea shown.
+  - Write down just ``echo "Hello World, This is my first Jenkins job"` to execute shell command, in textarea shown.
 
   - Click `apply` and `save`  buttons.
 
