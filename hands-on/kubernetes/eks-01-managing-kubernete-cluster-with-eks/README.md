@@ -52,8 +52,8 @@ kubectl version --short --client
 
 ```text
 $ aws configure
-  AWS Access Key ID [None]: AKIAIOSFODNN7EXAMPLE
-  AWS Secret Access Key [None]: wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY
+  AWS Access Key ID [None]: (Your access key ID)
+  AWS Secret Access Key [None]: (Your secret access key)
   Default region name [None]: us-east-1
   Default output format [None]: json
 ```
